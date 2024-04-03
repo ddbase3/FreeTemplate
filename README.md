@@ -1,0 +1,2 @@
+# FreeTemplate
+GPL template plugin. 
