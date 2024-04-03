@@ -26,11 +26,6 @@ class FreeTemplatePlugin implements IPlugin, ICheck {
 		$this->servicelocator
 			->set($this->getName(), $this, true)
 			;
-
-		$this->servicelocator
-			// overwriting StandardServiceSelector chosen in index.php
-			->set('serviceselector', \ServiceSelector\LangBased\LangBasedServiceSelector::getInstance(), true);
-
 	}
 
 	// Implementation of ICheck
